@@ -1,5 +1,6 @@
 namespace Menayer.ContainerTerminal.Core.Primitives;
 
-public class ValueObject
-{
-}
+/// <summary>
+/// Represents an immutable value object.
+/// </summary>
+public abstract record ValueObject;
